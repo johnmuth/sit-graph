@@ -11,65 +11,81 @@ class SitGraph extends Component {
       "nodes": [
         {
           "data": {
+            "id": "issuers",
+            "label": "issuers"
+          }
+        },
+        {
+          "data": {
             "id": "prime-474969",
             "label": "German Pellets GmbH",
-            "role": "issuers"
+            "parent": "issuers"
           }
         },
         {
           "data": {
             "id": "prime-726883",
             "label": "Louisiana Public Facilities Authority",
-            "role": "issuers"
+            "parent": "issuers"
           }
         },
         {
           "data": {
             "id": "prime-4187",
-            "label": "Locke Lord LLP",
-            "role": "Lawyer"
+            "label": "Locke Lord LLP"
           }
         },
         {
           "data": {
             "id": "prime-795241",
             "label": "Sanger Texas Industrial Development Corporation",
-            "role": "issuers"
+            "parent": "issuers"
           }
         },
         {
           "data": {
             "id": "prime-4187",
-            "label": "Locke Lord LLP",
-            "role": "Lawyer"
+            "label": "Locke Lord LLP"
+          }
+        },
+        {
+          "data": {
+            "id": "obligors",
+            "label": "obligors"
           }
         },
         {
           "data": {
             "id": "prime-760383",
             "label": "Louisiana Pellets, Inc.",
-            "role": "obligors"
+            "parent": "obligors"
           }
         },
         {
           "data": {
             "id": "prime-795242",
             "label": "Texas Pellets Project",
-            "role": "obligors"
+            "parent": "obligors"
+          }
+        },
+        {
+          "data": {
+            "id": "others",
+            "label": "others"
           }
         },
         {
           "data": {
             "id": "prime-5792",
             "label": "Noerr LLP",
-            "role": "others"
+            "parent": "others"
           }
         },
         {
           "data": {
             "id": "prime-10572",
             "label": "Mintz Levin Cohn Ferris Glovsky & Popeo",
-            "role": "others"
+            "parent": "others"
           }
         }
       ],
@@ -130,7 +146,7 @@ class SitGraph extends Component {
         style: {
           'content': 'data(label)',
           'text-halign': 'center',
-          'text-valign': 'center'
+          'text-valign': 'top'
         }
       }
     ]
@@ -139,18 +155,18 @@ class SitGraph extends Component {
   render() {
 
     return (
-      <Grid fluid={true}>
+      <Grid>
         <Row>
           <Col>
             <ReactCytoscape containerID="cy"
-                            elements={this.getElementsCrg()}
+                            elements={this.getElementsCartoon()}
                             style={this.getStyle()}
                             cyRef={(cy) => {
                               this.cy = cy;
                               console.log('This is cy', this.cy)
                             }}
                             cytoscapeOptions={{wheelSensitivity: 0.1}}
-                            layout={{name: 'dagre', edgeSep:100, rankDir: 'LR', nodeDimensionsIncludeLabels: true}}/>
+                            layout={{name: 'dagre', edgeSep:40, rankDir: 'LR', nodeDimensionsIncludeLabels: true}}/>
           </Col>
         </Row>
       </Grid>
