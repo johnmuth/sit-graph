@@ -9,11 +9,13 @@ class SitGraph extends Component {
   getElements() {
     return {
       nodes: [
-        {data: {id: 'a'}},
-        {data: {id: 'b'}}
+        {data: {id: 'a', label:'human'}},
+        {data: {id: 'b', label:'cat'}},
+        {data: {id: 'c', label:'mouse'}}
       ],
       edges: [
-        {data: {id: 'ab', source: 'a', target: 'b'}}
+        {data: {id: 'ab', source: 'a', target: 'b', label:'feeds'}},
+        {data: {id: 'bc', source: 'b', target: 'c', label:'chases'}}
       ]
     };
   }
@@ -23,17 +25,18 @@ class SitGraph extends Component {
       {
         selector: 'edge',
         style: {
-          'width': 4,
-          'target-arrow-shape': 'triangle',
+          'content': 'data(label)',
+          'curve-style': 'bezier',
           'line-color': '#9dbaea',
           'target-arrow-color': '#9dbaea',
-          'curve-style': 'bezier'
+          'target-arrow-shape': 'triangle',
+          'width': 2
         }
       },
       {
         selector: 'node',
         style: {
-          'content': 'data(id)'
+          'content': 'data(label)'
         }
       }
     ]
