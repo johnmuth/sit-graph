@@ -1,0 +1,435 @@
+[
+  {
+    "bidders": [],
+    "issuers": [
+      {
+        "id": "474969",
+        "hqAddress": {
+          "postcode": "23970",
+          "country": {
+            "name": "Germany",
+            "mmgid": "prime-DEU"
+          },
+          "state": {
+            "name": "Mecklenburg-West Pomerania",
+            "mmgid": "prime-DE-NI"
+          }
+        },
+        "ownershipType": {
+          "id": "private",
+          "name": "Private company",
+          "mmgid": "prime-private"
+        },
+        "companyType": [
+          {
+            "id": "corporate",
+            "name": "Corporate",
+            "mmgid": "prime-corporate"
+          }
+        ],
+        "name": "German Pellets GmbH",
+        "individuals": [
+          {
+            "name": "Mr Peter Horst Leibold",
+            "role": "CEO",
+            "asof": "2006-05-18T00:00:00",
+            "id": "417643",
+            "mmgid": "prime-417643"
+          },
+          {
+            "name": "Mrs Anna Kathrin Leibold",
+            "role": "CEO",
+            "asof": "2006-05-18T00:00:00",
+            "id": "417644",
+            "mmgid": "prime-417644"
+          }
+        ],
+        "universes": [
+          {
+            "mmgid": "prime-live",
+            "universeType": "debtuniversetype",
+            "name": "Live Deals",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-8_1",
+                "id": "8_1",
+                "product": "Debtwire",
+                "edition": "Europe"
+              },
+              {
+                "mmgid": "prime-8_8388608",
+                "id": "8_8388608",
+                "product": "Debtwire",
+                "edition": "Middle Market Europe"
+              }
+            ]
+          }
+        ],
+        "localName": null,
+        "aliases": [],
+        "advisors": [],
+        "competitors": [],
+        "indices": [],
+        "mmgid": "prime-474969"
+      },
+      {
+        "id": "726883",
+        "hqAddress": {
+          "country": {
+            "name": "USA",
+            "mmgid": "prime-USA"
+          },
+          "state": {
+            "name": "Louisiana (LA)",
+            "mmgid": "prime-LA"
+          },
+          "postcode": null
+        },
+        "ownershipType": {
+          "id": "state",
+          "name": "State owned",
+          "mmgid": "prime-state"
+        },
+        "companyType": [
+          {
+            "id": "other",
+            "name": "Other",
+            "mmgid": "prime-other"
+          }
+        ],
+        "name": "Louisiana Public Facilities Authority",
+        "advisors": [
+          {
+            "role": {
+              "mmgid": "prime-lawyer",
+              "name": "Lawyer"
+            },
+            "companies": [
+              {
+                "id": "4187",
+                "name": "Locke Lord LLP",
+                "ownershipType": {
+                  "id": "private",
+                  "name": "Private company",
+                  "mmgid": "prime-private"
+                },
+                "companyType": [
+                  {
+                    "id": "lawfirm",
+                    "name": "Law Firm",
+                    "mmgid": "prime-lawfirm"
+                  }
+                ],
+                "aliases": [
+                  "Formerly, Locke, Lord, Bissell & Liddell LLP",
+                  "Locke Lord Edwards",
+                  "Merged with Edwards Wildman Palmer"
+                ],
+                "mmgid": "prime-4187",
+                "localName": null
+              }
+            ],
+            "currentOrPrevious": "Current"
+          }
+        ],
+        "universes": [
+          {
+            "mmgid": "prime-highyield",
+            "universeType": "muniversecode",
+            "name": "High Yield/Unrated",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          },
+          {
+            "mmgid": "prime-investmentgrade",
+            "universeType": "muniversecode",
+            "name": "Investment Grade",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          }
+        ],
+        "localName": null,
+        "aliases": [],
+        "individuals": [],
+        "competitors": [],
+        "indices": [],
+        "mmgid": "prime-726883"
+      },
+      {
+        "id": "795241",
+        "hqAddress": {
+          "country": {
+            "name": "USA",
+            "mmgid": "prime-USA"
+          },
+          "state": {
+            "name": "Texas (TX)",
+            "mmgid": "prime-TX"
+          },
+          "postcode": null
+        },
+        "ownershipType": {
+          "id": "state",
+          "name": "State owned",
+          "mmgid": "prime-state"
+        },
+        "companyType": [
+          {
+            "id": "other",
+            "name": "Other",
+            "mmgid": "prime-other"
+          }
+        ],
+        "name": "Sanger Texas Industrial Development Corporation",
+        "advisors": [
+          {
+            "role": {
+              "mmgid": "prime-lawyer",
+              "name": "Lawyer"
+            },
+            "companies": [
+              {
+                "id": "4187",
+                "name": "Locke Lord LLP",
+                "ownershipType": {
+                  "id": "private",
+                  "name": "Private company",
+                  "mmgid": "prime-private"
+                },
+                "companyType": [
+                  {
+                    "id": "lawfirm",
+                    "name": "Law Firm",
+                    "mmgid": "prime-lawfirm"
+                  }
+                ],
+                "aliases": [
+                  "Formerly, Locke, Lord, Bissell & Liddell LLP",
+                  "Locke Lord Edwards",
+                  "Merged with Edwards Wildman Palmer"
+                ],
+                "mmgid": "prime-4187",
+                "localName": null
+              }
+            ],
+            "currentOrPrevious": "Current"
+          }
+        ],
+        "universes": [
+          {
+            "mmgid": "prime-highyield",
+            "universeType": "muniversecode",
+            "name": "High Yield/Unrated",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          }
+        ],
+        "localName": null,
+        "aliases": [],
+        "individuals": [],
+        "competitors": [],
+        "indices": [],
+        "mmgid": "prime-795241"
+      }
+    ],
+    "targets": [],
+    "vendors": [],
+    "others": [
+      {
+        "id": "5792",
+        "hqAddress": {
+          "postcode": "D-10117",
+          "country": {
+            "name": "Germany",
+            "mmgid": "prime-DEU"
+          },
+          "state": {
+            "name": "Berlin",
+            "mmgid": "prime-DE-BE"
+          }
+        },
+        "ownershipType": {
+          "id": "private",
+          "name": "Private company",
+          "mmgid": "prime-private"
+        },
+        "companyType": [
+          {
+            "id": "lawfirm",
+            "name": "Law Firm",
+            "mmgid": "prime-lawfirm"
+          }
+        ],
+        "name": "Noerr LLP",
+        "aliases": [
+          "Nörr Stiefenhofer & Lutz (formerly Noerr Stiefenhofer & Lutz)"
+        ],
+        "localName": null,
+        "individuals": [],
+        "advisors": [],
+        "competitors": [],
+        "universes": [],
+        "indices": [],
+        "mmgid": "prime-5792"
+      },
+      {
+        "id": "10572",
+        "hqAddress": {
+          "postcode": "02111",
+          "country": {
+            "name": "USA",
+            "mmgid": "prime-USA"
+          },
+          "state": {
+            "name": "Massachusetts (MA)",
+            "mmgid": "prime-MA"
+          }
+        },
+        "ownershipType": {
+          "id": "private",
+          "name": "Private company",
+          "mmgid": "prime-private"
+        },
+        "companyType": [
+          {
+            "id": "lawfirm",
+            "name": "Law Firm",
+            "mmgid": "prime-lawfirm"
+          }
+        ],
+        "name": "Mintz Levin Cohn Ferris Glovsky & Popeo",
+        "universes": [
+          {
+            "mmgid": "prime-investmentgrade",
+            "universeType": "muniversecode",
+            "name": "Investment Grade",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          },
+          {
+            "mmgid": "prime-restructuring",
+            "universeType": "muniversecode",
+            "name": "Restructuring",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          }
+        ],
+        "localName": null,
+        "aliases": [],
+        "individuals": [],
+        "advisors": [],
+        "competitors": [],
+        "indices": [],
+        "mmgid": "prime-10572"
+      }
+    ],
+    "agencies": [],
+    "obligors": [
+      {
+        "id": "760383",
+        "name": "Louisiana Pellets, Inc.",
+        "ownershipType": {
+          "id": "private",
+          "name": "Private company",
+          "mmgid": "prime-private"
+        },
+        "companyType": [
+          {
+            "id": "corporate",
+            "name": "Corporate",
+            "mmgid": "prime-corporate"
+          }
+        ],
+        "isMain": false,
+        "universes": [
+          {
+            "mmgid": "prime-highyield",
+            "universeType": "muniversecode",
+            "name": "High Yield/Unrated",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          }
+        ],
+        "mmgid": "prime-760383"
+      },
+      {
+        "id": "795242",
+        "name": "Texas Pellets Project",
+        "ownershipType": {
+          "id": "state",
+          "name": "State owned",
+          "mmgid": "prime-state"
+        },
+        "companyType": [
+          {
+            "id": "other",
+            "name": "Other",
+            "mmgid": "prime-other"
+          }
+        ],
+        "isMain": false,
+        "universes": [
+          {
+            "mmgid": "prime-highyield",
+            "universeType": "muniversecode",
+            "name": "High Yield/Unrated",
+            "siteEditionTagging": [
+              {
+                "mmgid": "prime-512_2",
+                "id": "512_2",
+                "product": "Municipals",
+                "edition": "North America"
+              }
+            ]
+          }
+        ],
+        "mmgid": "prime-795242"
+      }
+    ],
+    "trustees": [],
+    "underwriters": [],
+    "servicers": [],
+    "depositors": [],
+    "borrowers": [],
+    "sellers": [],
+    "lenders": [],
+    "defendants": [],
+    "plaintiffs": []
+  }
+]
